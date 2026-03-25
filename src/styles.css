@@ -8,9 +8,34 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  background: #f5f7fb;
 }
 
-h1 {
+.app {
+  width: min(560px, 92vw);
+  background: #ffffff;
+  border: 1px solid #e1e6f0;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #113270;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.content h1 {
   margin: 0;
   font-size: 2rem;
 }
