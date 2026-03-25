@@ -1,5 +1,7 @@
+import { createElement } from 'react';
+
 function App() {
-  return <h1>Привет, React!</h1>;
+  return createElement('h1', null, 'Hello, world!');
 }
 
 export default App;
